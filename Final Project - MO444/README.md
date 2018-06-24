@@ -1,1 +1,7 @@
+# Parameter selection for contour saliency map transformations
 
+In image processing, in order to visualize a segmentation result produced by saliency map approaches, a normalizing function is needed. Accordingly, studies have shown that by using a sigmoid function as a pre-filtering step and as a normalization one, can, in some ways, prevent over-segmentation. However, by applying this function, certain parameters need to be defined in order to achieve the best results. Therefore, this study will, with the assistance of machine learning, define parameters that could be more assertive than the previous selected proposition and generate better segmentation events.
+
+The current study proposes the use of regression algorithms to obtain optimal sigmoidal parameters, in the pre-filtering step, of contour saliency map transformations proposed in Belém et. al, since its selection, during their study, was done empirically. The dataset used during this study was the BSDS500, consisting of 261.6 MB of information distributed between 500 '.ppm' extension images of various scenario situations.
+
+In order to establish an approximation of the best configuration for each image, a semi-supervised approach was considered, such that the regression was made possible. Experimental results show that an optimal parameter can be estimated by a Random Forest model regarding texture-based features as input samples, overcoming other approaches (like SVR), and obtaining a better performance than the result presented by Belém et. al.
