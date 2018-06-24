@@ -3,7 +3,9 @@
 This repository contains the code for the paper:
 
 ```
-F.d.C.  Belém, J. Cousty, Z. K. do Patrocınio Jr, and S.J.F. Guimaraes. Impacts of contour saliency map transformations. In Graphics, Patterns and Images (SIBGRAPI), 2017 30th SIBGRAPI Conference on. IEEE, 2017.
+F.d.C.  Belém, J. Cousty, Z. K. do Patrocınio Jr, and S.J.F. Guimaraes. 
+Impacts of contour saliency map transformations. In Graphics, Patterns and Images (SIBGRAPI),
+2017 30th SIBGRAPI Conference on. IEEE, 2017.
  ```
 ```
 @inproceedings{belem2017impacts,
