@@ -22,6 +22,6 @@ The current study proposes the use of regression algorithms to obtain optimal si
 
 In order to establish an approximation of the best configuration for each image, a semi-supervised approach was considered, such that the regression was made possible. Experimental results show that an optimal parameter can be estimated by a Random Forest model regarding texture-based features as input samples, overcoming other approaches (like SVR), and obtaining a better performance than the result presented by Belém et. al.
 
-![results](results.png)
+![results](results.png =899x402)
 
 ## Usage 
