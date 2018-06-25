@@ -1,0 +1,16 @@
+#!/bin/sh
+cat li.make general.make > makefile
+
+if ! test -d linux 
+then
+  mkdir linux
+  mkdir linux/bin
+  mkdir linux/obj
+fi
+
+if ! test -d tmp
+then
+mkdir tmp
+fi
+
+make
